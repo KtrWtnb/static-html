@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body {
+    font-size: 16px;
+}
+
+/*----------------------------------------
+    Universal selector
+------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----------------------------------------
+    Structure Module
+------------------------------------------*/
+
+body {
+    padding: 10px;
+    background-color: #eee;
+}
+
+/*----------------------------------------
+	Text Module
+------------------------------------------*/
+
+h1 {
+    color: #2d894d;
+    font-size: 121%;
+}
+
+h2 {
+    color: #2d894d;
+    font-size: 107%;
+}
+
+p {
+    color: #666;
+    font-size: 88%;
+}
+
+li {
+    color: #fff;
+    font-size: 94%;
+}
+
+/*----------------------------------------
+	Layouts
+------------------------------------------*/
+
+div#container {
+    margin: auto;
+    padding: 10px 48px 54px 32px;
+    width: 800px;
+    position: relative;
+    background-color: #dde9a4;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 0.3rem 14px;
+    border: 2px solid #dfa2ab;
+}
+
+nav {
+    float: left;
+    width: 172px;
+    background-color: #41b181;
+}
+
+ul {
+    margin: 0.6rem 10px;
+    padding: 0 1.2rem;
+}
+
+section {
+    float: right;
+    width: 592px;
+    padding: 0.8rem;
+    background-color: #fff;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
